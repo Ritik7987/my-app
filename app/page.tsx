@@ -39,7 +39,7 @@ export default function Home() {
                 <Image
                   height={590}
                   width={590}
-                  src="https://shuffle.dev/flaro-assets/images/headers/header.png"
+                  src={image}
                   alt="image"
                   className="image_right"
                 />
