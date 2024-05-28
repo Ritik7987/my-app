@@ -28,7 +28,7 @@ export default function Home() {
               <h1 className="heading1"  style={{margin:"0px",color:"black", fontSize:"4rem",maxWidth:"max-content"}}>Flipr Careers</h1>
 
               <p style={{color:"black", width:"100%"}}>
-                Welcome to the Flipr careers page! We're excited to find talented individuals passionate about technology and eager to grow their careers.
+                Welcome to the Flipr careers page! We are excited to find talented individuals passionate about technology and eager to grow their careers.
               </p>
               <button className="btn1" style={{width:"max-content",backgroundColor:"rgba(79, 70, 229,1)", color:"white"}}>
                 Read More
@@ -36,7 +36,7 @@ export default function Home() {
 
             </div>
             <div className="right_container">
-                <img
+                <Image
                   height={590}
                   width={590}
                   src="https://shuffle.dev/flaro-assets/images/headers/header.png"
