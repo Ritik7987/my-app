@@ -1,95 +1,50 @@
+"use client"
 import Image from "next/image";
-import styles from "./page.module.css";
+import { FaArrowRightLong } from "react-icons/fa6";
+// import '@mantine/core/styles.css'
+import { Box, Button, Flex, Title } from "@mantine/core";
+import image from "@/public/header.png"
+import { useState } from "react";
+import img from "@/public/navbar.jpeg"
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div  className="main">
+        <nav style={{height:"92px"}}>
+          <Image
+            src={img}
+            height={0}
+            width={0}
+            alt="navbar"
+            style={{width:"100%"}}
+          />
+        </nav>
+        <div className="container">
+            <div  className="left_container">
+              <p style={{color:"black", backgroundColor:"#d1fae5",borderRadius:"10px",padding:"6px 6px",display:"flex",alignItems:"center",gap:"6px",width:"max-content"}}>
+                👋 We are hiring! View open roles
+                <FaArrowRightLong style={{backgroundColor:"#d1fae5"}}/>
+              </p>
+              <h1 className="heading1"  style={{margin:"0px",color:"black", fontSize:"4rem",maxWidth:"max-content"}}>Flipr Careers</h1>
+
+              <p style={{color:"black", width:"100%"}}>
+                Welcome to the Flipr careers page! We're excited to find talented individuals passionate about technology and eager to grow their careers.
+              </p>
+              <button className="btn1" style={{width:"max-content",backgroundColor:"rgba(79, 70, 229,1)", color:"white"}}>
+                Read More
+              </button>
+
+            </div>
+            <div className="right_container">
+                <img
+                  height={590}
+                  width={590}
+                  src="https://shuffle.dev/flaro-assets/images/headers/header.png"
+                  alt="image"
+                  className="image_right"
+                />
+            </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
