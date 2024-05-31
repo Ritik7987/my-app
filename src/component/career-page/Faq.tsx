@@ -30,6 +30,7 @@ const Faq = () => {
                     <Image
                         src={img}
                         alt='faq_image'
+                        className={classes.imagefaq}
                     />
                     <Flex direction={'column'} style={{width:"100%",padding:"15px",gap:"1rem"}}>
                     {faqItems.map((item, index) => (

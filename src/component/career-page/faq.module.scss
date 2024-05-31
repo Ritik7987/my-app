@@ -52,3 +52,12 @@
         align-items: center;
     }
 }
+.imagefaq{
+    height: 40%;
+    width: 40%;
+    margin:auto;
+    @media (max-width:540px) {
+        width: 15rem;
+        height: 15rem;
+    }
+}
