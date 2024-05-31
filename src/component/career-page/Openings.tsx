@@ -7,16 +7,7 @@ export default function JobOpening() {
     return (
         <>
 
-<Box className={classes.root}></Box>
-            <Box
-                sx={{
-                    marginTop: 80,
-                    "@media(max-width:767px)": {
-                        marginTop: 60,
-                    },
-                }}
-            >
-                <Container >
+<Box className={`${classes.root} ${classes.containerClass}`}> 
                     <Grid>
                         <Grid.Col span={12} sm={9} xs={12}>
                             <Box sx={{ marginTop: 14 }}>
@@ -39,12 +30,11 @@ export default function JobOpening() {
                         
                     </Grid>
                     <p className={classes.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deleniti porro tempore atque magni deserunt hic aperiam omnis iure eum.</p>
-                </Container>
-            </Box>
-            <Flex
+                    <Flex
       direction={{ base: 'column', sm: 'row' }}
       gap={{ base: 'sm', sm: 'lg' }}
       justify={{ sm: 'center' }}
+      className={classes.flexClass}
     >
             <Anchor href="#" className={classes.container}>
       <Box className={classes.card}>
@@ -156,6 +146,8 @@ export default function JobOpening() {
       </Box>
     </Anchor>
 </Flex>
+            </Box>
+            
 
 
 

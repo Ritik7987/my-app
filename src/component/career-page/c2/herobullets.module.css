@@ -8,15 +8,7 @@
 
 }
 .root {
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 2em 0em;
-  padding-bottom: 0px;
+  
   font-family: Montserrat, sans-serif !important;
 
   @media screen and (max-width: 1033px) {

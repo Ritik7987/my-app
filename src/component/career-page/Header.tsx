@@ -9,7 +9,7 @@ function Header() {
     return (
 
         <>  
-            <Container>
+            <Box>
                 <div className={classes.root}>
                     <div style={{ width: "100%" }}>
                         <div className={classes.flexCenter}>
@@ -39,15 +39,16 @@ function Header() {
                                     className={classes.description}
                                      
                                 >
-                                    Welcome to the Flipr careers page! We re excited to find talented individuals passionate about technology and eager to grow their careers.
+                                    Welcome to the Flipr careers page! We re excited to <br/>   find talented individuals passionate about technology and eager to grow their careers.
                                 </p>
+                                
                             </div>
                         </div>
 
 
                     </div>
                 </div>
-            </Container>
+            </Box>
 
 
             

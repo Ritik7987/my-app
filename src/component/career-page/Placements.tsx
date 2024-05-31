@@ -4,7 +4,7 @@ import classes from './placements.module.scss'
 export default function Placements() {
     return (
         <>
-        <Container className={classes.containerClass}>
+        <Box className={`${classes.containerClass} ${classes.root}`}>
         <Grid>
                         <Grid.Col span={12} sm={9} xs={12}>
                             <Box sx={{ marginTop: 14 }}>
@@ -80,7 +80,7 @@ export default function Placements() {
 
 
             </Flex>
-</Container>
+</Box>
 
         </>
     )
