@@ -1,0 +1,54 @@
+.mainContainer{
+    padding: 10px 5%;
+    padding-top: 10rem;
+    display: flex ;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.heading {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    @media (max-width: 1800px) {
+        font-size: 4.2rem;
+    }
+
+    @media (max-width: 950px) {
+        font-size: 4rem;
+    }
+
+    @media (max-width: 650px) {
+        font-size: 3rem;
+    }
+}
+
+.gradientStyle {
+    background-image: linear-gradient(90.81deg,
+            #0c94e1 1.5%,
+            #07d698 51.67%) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+}
+.faqSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.ques{
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.mainsection{
+    @media (max-width:912px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}

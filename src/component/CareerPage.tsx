@@ -9,6 +9,7 @@ import Placements from './career-page/Placements';
 import JobOpening from './career-page/Openings';
 import Lifeat from './career-page/Lifeat';
 import Header2 from './career-page/c2/Header';
+import Faq from './career-page/Faq';
 const CareerPage = () => {
   return (
     <>
@@ -16,6 +17,8 @@ const CareerPage = () => {
             <Placements/>
             <JobOpening/>
             <Lifeat/>
+
+            <Faq/>
     </>
   )
 }
