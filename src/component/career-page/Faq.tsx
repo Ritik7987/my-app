@@ -41,9 +41,9 @@ const Faq = () => {
                                         <div style={{display:"flex"}}>
 
                                             {showAns[index] ? (
-                                                <FaMinus onClick={() => toggleAnswer(index)} />
+                                                <FaMinus style={{cursor:"pointer"}} onClick={() => toggleAnswer(index)} />
                                             ) : (
-                                                <FaPlus onClick={() => toggleAnswer(index)} />
+                                                <FaPlus style={{cursor:"pointer"}} onClick={() => toggleAnswer(index)} />
                                             )}
                                         </div>
                                     </div>
