@@ -45,6 +45,10 @@
      }
  }
 
+ .container {
+     margin-top: 12%;
+ }
+
  .textCol {
      width: 60%;
 
@@ -62,7 +66,7 @@
  .approach_hero_banner {
      margin-top: 15%;
      width: 100%;
-     height: 100%;
+     height: 200%;
 
      @media screen and (max-width: 790px) {
          max-width: 300px;
@@ -81,7 +85,7 @@
  }
 
  .heading {
-     font-weight: 600;
+     font-weight: 800;
      font-size: 3rem;
      margin: 0;
 
@@ -106,6 +110,19 @@
      -webkit-text-fill-color: transparent;
      background-clip: text;
      margin: 0;
+
+     background-size: 200% auto;
+
+     color: #000;
+     background-clip: text;
+
+     animation: shine 2s reverse linear infinite;
+
+     @keyframes shine {
+         to {
+             background-position: 200% center;
+         }
+     }
  }
 
 
@@ -189,5 +206,112 @@
      @media screen and (max-width: 900px) {
          margin-top: 0px;
          margin-bottom: 30px;
+     }
+ }
+
+
+ @keyframes flip {
+     0% {
+         transform: rotateY(0deg);
+     }
+
+     50% {
+         transform: rotateY(180deg);
+     }
+
+     100% {
+         transform: rotateY(360deg);
+     }
+ }
+
+ @keyframes colorChange {
+
+     0%,
+     100% {
+         background: black;
+
+     }
+
+     50% {
+         background: linear-gradient(90.81deg, #0c94e1 1.5%, #07d698 51.67%);
+     }
+ }
+
+ @keyframes flip {
+     0% {
+         transform: rotateY(0deg);
+     }
+
+     50% {
+         transform: rotateY(180deg);
+     }
+
+     100% {
+         transform: rotateY(360deg);
+     }
+ }
+
+ .card {
+     padding: 32px;
+     height: 100%;
+     background-color: rgba(255, 255, 255, 0.8);
+     border: 1px solid transparent;
+     border-radius: 16px;
+     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+     transition: border-color 0.3s ease;
+     box-sizing: border-box;
+     margin-top: 30px;
+     min-height: 100px;
+     max-height: 100px;
+     min-width: 100px;
+     transition: transform 0.6s;
+     transform-style: preserve-3d;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     backface-visibility: hidden;
+
+     &.cardHover {
+         animation: flip 3s infinite;
+
+         &:nth-child(1) {
+             animation-delay: 0s;
+         }
+
+         &:nth-child(2) {
+             animation-delay: 1s;
+         }
+
+         &:nth-child(3) {
+             animation-delay: 2s;
+         }
+
+         &:nth-child(4) {
+             animation-delay: 3s;
+         }
+     }
+
+     &.blackbox {
+         background-color: black;
+     }
+
+     &.cyanbox {
+         background-color: cyan;
+     }
+
+     &.pinkbox {
+         background-color: #e43488;
+     }
+
+     &.purplebox {
+         background-color: #9265f3;
+     }
+
+     &.yellowbox {
+         background-color: yellow;
+     }
+
+     &.orangebox {
+         background-color: orange;
      }
  }

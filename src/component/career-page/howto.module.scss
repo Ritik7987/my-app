@@ -1,0 +1,121 @@
+.root {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100vh - 61px);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5%;
+    font-family: Montserrat, sans-serif !important;
+    margin-top: 20%;
+
+    & .p {
+        padding: 0;
+        margin: 0;
+    }
+
+    @media (max-width: 992px) {
+        height: 100%;
+        padding: 20px 5%;
+    }
+}
+
+.containerClass {
+    margin-top: 8%;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0;
+
+    @media (max-width: 1800px) {
+        font-size: 4.2rem;
+    }
+
+    @media (max-width: 950px) {
+        font-size: 4rem;
+    }
+
+    @media (max-width: 650px) {
+        font-size: 3rem;
+    }
+}
+
+.gradientStyle {
+    background-image: linear-gradient(90.81deg,
+            #0c94e1 1.5%,
+            #07d698 51.67%) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+}
+
+.card {
+    padding: 32px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid transparent;
+    border-radius: 16px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 30px;
+    min-height: 220px;
+    max-height: 220px;
+    min-width: 200px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+@keyframes flip {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(180deg);
+    }
+}
+
+/* Flip effect on hover */
+.cardHover:hover {
+    animation: flip 1.0s forwards;
+}
+
+.imgclass{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adjustments for the content */
+.boxHeading {
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+
+.boxHeading {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blackbox {
+    background-color: black;
+}
+
+.cyanbox {
+    background-color: #92f5e9;
+}
+
+.pinkbox {
+    background-color: #e43488;
+}
+
+.purplebox {
+    background-color: #9265f3;
+}
