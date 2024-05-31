@@ -1,0 +1,196 @@
+ 
+  /*New CSS*/ 
+
+.root {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2em 0em;
+    padding-bottom: 0px;
+    font-family: Montserrat, sans-serif !important;
+
+    @media screen and (max-width: 1033px) {
+        padding: 0em 0em;
+        height: 100%;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 790px) {
+        flex-direction: column;
+    }
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+
+    @media screen and (max-width: 992px) {
+        height: 100%;
+        padding: 30px 0px;
+    }
+}
+
+
+
+.btnCol {
+    width: 38%;
+
+    @media screen and (max-width: 1260px) {
+        width: 40%;
+    }
+}
+
+.textCol {
+    width: 60%;
+
+    @media screen and (max-width: 1260px) {
+        width: 57%;
+    }
+}
+
+.col {
+    @media screen and (max-width: 790px) {
+        width: 100%;
+    }
+}
+
+.approach_hero_banner {
+    width: 100%;
+    height: 100%;
+
+    @media screen and (max-width: 790px) {
+        max-width: 300px;
+    }
+}
+
+.divider {
+    width: 55%;
+    height: 1px;
+    margin: 50px 0px;
+
+    @media screen and (max-width: 650px) {
+        margin: 30px 0px;
+    }
+
+}
+.heading {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0;
+
+    @media (max-width: 1800px) {
+        font-size: 4.2rem;
+    }
+
+    @media (max-width: 950px) {
+        font-size: 4rem;
+    }
+
+    @media (max-width: 650px) {
+        font-size: 3rem;
+    }
+}
+
+.gradientStyle {
+    background-image: linear-gradient(90.81deg,
+            #0c94e1 1.5%,
+            #07d698 51.67%) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+}
+
+
+.description {
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 0.75;
+
+    @media (max-width: 1600px) {
+        font-size: 2.6vh;
+        margin: 16px 0px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+.bgText {
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 82px;
+    margin: 0px;
+    font-weight: 700;
+    display: inline-block;
+    color: black;
+
+    @media screen and (max-width: 1260px) {
+        font-size: 50px;
+    }
+
+    @media screen and (max-width: 892px) {
+        font-size: 44px;
+    }
+
+    @media screen and (max-width: 650px) {
+        font-size: 36px;
+    }
+}
+
+.LightBgText {
+    font-weight: 500;
+}
+
+.btnSection {
+    border-radius: 42px;
+    padding: 32px 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    @media screen and (max-width: 650px) {
+        padding: 22px 16px;
+    }
+}
+
+
+
+.description {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 25px 0px;
+    width: 90%;
+
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+    @media screen and (max-width: 900px) {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}
