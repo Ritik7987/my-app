@@ -30,6 +30,7 @@ const Faq = () => {
                     <Image
                         src={img}
                         alt='faq_image'
+                        className={classes.imagefaq}
                     />
                     <Flex direction={'column'} style={{width:"100%",padding:"15px",gap:"1rem"}}>
                     {faqItems.map((item, index) => (
@@ -41,9 +42,9 @@ const Faq = () => {
                                         <div style={{display:"flex"}}>
 
                                             {showAns[index] ? (
-                                                <FaMinus onClick={() => toggleAnswer(index)} />
+                                                <FaMinus style={{cursor:"pointer"}} onClick={() => toggleAnswer(index)} />
                                             ) : (
-                                                <FaPlus onClick={() => toggleAnswer(index)} />
+                                                <FaPlus style={{cursor:"pointer"}} onClick={() => toggleAnswer(index)} />
                                             )}
                                         </div>
                                     </div>
