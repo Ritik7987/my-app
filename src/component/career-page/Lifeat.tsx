@@ -35,7 +35,7 @@ export default function Lifeat(){
                 </Box>
 
                 <Box className={`${classes.card}`}>
-                    <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1716548539/imbjylcdhtbclusgrred.png`} height={40} width={50} radius='lg'></Image>
+                    <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1716548539/imbjylcdhtbclusgrred.png`} height={40} width={50} radius='lg' alt='image'></Image>
                 <p className={classes.boxHeading}>Team Culture</p>
                      <p>We foster a collaborative environment where team members</p>
                 </Box>
@@ -47,7 +47,7 @@ export default function Lifeat(){
 
 
                 <Box className={`${classes.card}`}>
-                <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/xkcerhfppyts0xxyj1se.png`} height={40} width={50} radius='lg'></Image>
+                <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/xkcerhfppyts0xxyj1se.png`} height={40} width={50} radius='lg' alt='image'></Image>
                 <p className={classes.boxHeading}>Learning & Development</p>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -71,7 +71,7 @@ export default function Lifeat(){
             >
                 <Box className={`${classes.card}`}>
                      
-                <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/xkcerhfppyts0xxyj1se.png`} height={40} width={50} radius='lg'></Image>
+                <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/xkcerhfppyts0xxyj1se.png`} height={40} width={50} radius='lg' alt='image'></Image>
                 <p className={classes.boxHeading}>Fun & Engagement:</p>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -83,7 +83,7 @@ export default function Lifeat(){
                 </Box>
 
                 <Box className={`${classes.card}`}>
-                <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1716548539/imbjylcdhtbclusgrred.png`} height={40} width={50} radius='lg'></Image>
+                <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1716548539/imbjylcdhtbclusgrred.png`} height={40} width={50} radius='lg' alt='image'></Image>
                 <p className={classes.boxHeading}>Innovative Work Environment</p>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
