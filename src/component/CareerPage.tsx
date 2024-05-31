@@ -10,13 +10,17 @@ import JobOpening from './career-page/Openings';
 import Lifeat from './career-page/Lifeat';
 import Header2 from './career-page/c2/Header';
 import Faq from './career-page/Faq';
+import HowTo from './career-page/HowTo';
+import HowTo2 from './career-page/Howto2';
 const CareerPage = () => {
   return (
     <>
      <Header/>
             <Placements/>
             <JobOpening/>
+            <HowTo2/>
             <Lifeat/>
+            <HowTo/>
             <Faq/>
     </>
   )
