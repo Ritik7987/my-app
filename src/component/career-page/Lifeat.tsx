@@ -2,9 +2,10 @@ import { Container, Title, Card, Group, Image, Space, Badge, Box, Grid, SimpleGr
 import classes from './lifeat.module.scss'
 
 export default function Lifeat(){
+    
     return (
         <>
-        <Container className={`${classes.root}`}>
+        <Box className={`${classes.root} ${classes.container}`}>
         <Grid>
                         <Grid.Col span={12} sm={9} xs={12}>
                             <Box sx={{ marginTop: 14 }}>
@@ -31,7 +32,8 @@ export default function Lifeat(){
                 gap={{ base: 'sm', sm: 'lg' }}
                 justify={{ sm: 'center' }}
             >
-                <Box className={`${classes.card} ${classes.blackbox}`}>
+                <Box className={`${classes.card} ${classes.blackbox} ${classes.cardHover}`}>
+                     
                 </Box>
 
                 <Box className={`${classes.card}`}>
@@ -40,7 +42,7 @@ export default function Lifeat(){
                      <p>We foster a collaborative environment where team members</p>
                 </Box>
 
-                <Box className={`${classes.card} ${classes.cyanbox}`}>
+                <Box className={`${classes.card} ${classes.cyanbox} ${classes.cardHover}`}>
                      
 
                 </Box>
@@ -77,7 +79,7 @@ export default function Lifeat(){
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </Box>
 
-                <Box className={`${classes.card} ${classes.pinkbox}`}>
+                <Box className={`${classes.card} ${classes.pinkbox} ${classes.cardHover}`}>
                      
                                         
                 </Box>
@@ -91,7 +93,7 @@ export default function Lifeat(){
                 </Box>
 
 
-                <Box className={`${classes.card} ${classes.purplebox}`}>
+                <Box className={`${classes.card} ${classes.purplebox} ${classes.cardHover}`}>
                      
 
                 </Box>
@@ -105,7 +107,7 @@ export default function Lifeat(){
 
 
             </Flex>
-</Container>
+</Box>
         </>
     )
 }

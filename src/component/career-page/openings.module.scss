@@ -1,9 +1,31 @@
 .root {
-  margin-top: 5%;
-  font-family: Montserrat, sans-serif !important;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100vh - 61px);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5%;
+    font-family: Montserrat, sans-serif !important;
+
+
+    & .p {
+        padding: 0;
+        margin: 0;
+    }
+
+    @media (max-width: 992px) {
+        height: 100%;
+        padding: 20px 5%;
+    }
+}
+.containerClass {
+  margin-top: 8%;
+  margin-bottom: 30px;
 }
 
+.flexClass{
+  justify-items: center;
+}
 
 
 .heading {
@@ -53,11 +75,12 @@
 /* JobListing.module.css */
 .container {
   display: flex;
-  flex-shrink: 0;
   max-width: 400px;
   /* Adjust as needed */
   padding: 16px;
-  margin: auto;
+  box-sizing: border-box;
+  max-width: 50vw;
+
 }
 
 .card {
