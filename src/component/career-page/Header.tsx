@@ -28,13 +28,13 @@ function Header() {
                                     </div>
                                     <div className={`${classes.col} ${classes.btnCol}`}>
                                         <div className={classes.container}>
-                                            {/* <Image
+                                            <Image
                                                 className={classes.approach_hero_banner}
                                                 src={headerimage.src}
                                                 alt="approach_hero_banner"
                                                 radius="xl"
-                                            /> */}
-                                            <Flex
+                                            />
+                                            {/* <Flex
                                                 direction={{ base: 'column', sm: 'row' }}
                                                 gap={{ base: 'sm', sm: 'lg' }}
                                                 justify={{ sm: 'center' }}
@@ -63,7 +63,7 @@ function Header() {
                                                 <Box className={`${classes.card} ${classes.orangebox} ${classes.cardHover}`}>
 
                                                 </Box>
-                                            </Flex>
+                                            </Flex> */}
                                              
                                         </div>
                                     </div>

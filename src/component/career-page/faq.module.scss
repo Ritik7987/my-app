@@ -1,9 +1,22 @@
 .mainContainer{
-    padding: 10px 5%;
-    padding-top: 10rem;
     display: flex ;
     flex-direction: column;
     gap: 3rem;
+
+    // Styles for large screens
+    @media (min-width: 768px) {
+        padding: 1rem;
+
+
+
+    }
+
+    // Styles for mobile screens
+    @media (max-width: 767px) {
+        padding: 3rem;
+
+
+    }
 }
 
 

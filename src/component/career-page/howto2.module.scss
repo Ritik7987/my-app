@@ -6,7 +6,7 @@
     align-items: center;
     padding: 10px 5%;
     font-family: Montserrat, sans-serif !important;
-    margin-top: 200px;
+    margin-top: 50px;
 
     & .p {
         padding: 0;
@@ -131,4 +131,30 @@
 
 .purplebox {
     background-color: #9265f3;
+}
+
+.numberOver {
+    position: absolute;
+    top: -3rem;
+    left: -3.5rem;
+    z-index: 10;
+    width: 7rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #000000;
+
+    // Styles for large screens
+    @media (min-width: 768px) {
+        font-size: 4rem;
+        margin: 10px;
+
+
+    }
+
+    // Styles for mobile screens
+    @media (max-width: 767px) {
+        font-size: 4rem;
+        margin: 20px;
+
+    }
 }
