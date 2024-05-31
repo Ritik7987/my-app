@@ -32,7 +32,7 @@ function Header() {
                                                 radius="lg"
                                             />
                                         </div>
-                                    </div>
+                                    </div> 
                                     
                                 </div>
                                 <p
