@@ -39,7 +39,7 @@ function Header() {
                                     className={classes.description}
                                      
                                 >
-                                    Welcome to the Flipr careers page! We're excited to find talented individuals passionate about technology and eager to grow their careers.
+                                    Welcome to the Flipr careers page! We re excited to find talented individuals passionate about technology and eager to grow their careers.
                                 </p>
                             </div>
                         </div>

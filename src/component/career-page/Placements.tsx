@@ -45,7 +45,7 @@ export default function Placements() {
                             </p>
                         </Box>
                         <Box className={classes.cardHeader}>
-                        <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/xkcerhfppyts0xxyj1se.png`} className={classes.imgInBox}></Image>     
+                        <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/xkcerhfppyts0xxyj1se.png`} className={classes.imgInBox} alt='image'></Image>     
                             
                         </Box>
                     </Flex>
@@ -72,7 +72,7 @@ export default function Placements() {
                             </p>
                         </Box>
                         <Box className={classes.cardHeader}>
-                        <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/drio4auojbhz6ywvsl21.png`} className={classes.imgInBox}></Image>     
+                        <Image src={`https://res.cloudinary.com/dasdutgf6/image/upload/v1717068408/drio4auojbhz6ywvsl21.png`} className={classes.imgInBox} alt='image'></Image>     
                         </Box>
                     </Flex>
 
