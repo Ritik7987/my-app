@@ -17,7 +17,6 @@ const CareerPage = () => {
             <Placements/>
             <JobOpening/>
             <Lifeat/>
-
             <Faq/>
     </>
   )
