@@ -43,18 +43,26 @@ export default function HowTo2(){
                     <Image src={box1.src} height={100} width={100} radius='lg' alt='image'></Image>
                     <p className={`${classes.numberOver} ${classes.boxHeading}`}>01</p>
                 <p className={classes.boxHeading}>Explore Open Position</p>
+                <span>Review the internship and full-time roles listed above.
+</span>
                 </Box> 
                 <Box className={`${classes.card}  ${classes.imgclass}`} ml={10}>
                     <Image src={box2.src} height={100} width={100} radius='lg' alt='image'></Image>
                     <p className={`${classes.numberOver} ${classes.boxHeading}`}>02</p>
 
                 <p className={classes.boxHeading}>Prepare Your Application</p>
+                <span>Update your resume and write a cover letter.
+</span>
+
                 </Box>
                 <Box className={`${classes.card}  ${classes.imgclass}`} ml={10}>
                     <Image src={box3.src} height={100} width={100} radius='lg' alt='image'></Image>
                     <p className={`${classes.numberOver} ${classes.boxHeading}`}>03</p>
 
                 <p className={classes.boxHeading}>Submit Your Application</p>
+                <span>Click on the "Apply Now" button for the position you are interested in.
+</span>
+
                 </Box>
             </Flex>
 
@@ -69,12 +77,15 @@ export default function HowTo2(){
                     <Image src={box1.src} height={100} width={100} radius='lg' alt='image'></Image>
                     <p className={`${classes.numberOver} ${classes.boxHeading}`}>04</p>
                 <p className={classes.boxHeading}>Explore Open Position</p>
+                <span>If selected, you'll go through an interview process.</span>
                 </Box> 
                 <Box className={`${classes.card}  ${classes.imgclass}`} ml={10}>
                     <Image src={box2.src} height={100} width={100} radius='lg' alt='image'></Image>
                     <p className={`${classes.numberOver} ${classes.boxHeading}`}>05</p>
 
                 <p className={classes.boxHeading}>Prepare Your Application</p>
+                <span>If you're a good fit, we'll extend an offer and welcome you to our team!
+</span>
                 </Box>
             </Flex>
              

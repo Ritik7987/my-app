@@ -19,7 +19,7 @@
     }
 }
 
- 
+
 
 .heading {
     font-weight: 600;
@@ -45,12 +45,17 @@
 
 .numberBox {
     position: absolute;
-    top: 0;
+    top: -0.7em;
     right: 0;
-    font-size: 2rem;
     line-height: 1;
     font-weight: 700;
-    color: #000000;
+    color: white;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px orange,
+        1px 1px 2px orange,
+        1px -1px 0 orange,
+        -1px -1px 0 orange;
+
 }
 
 
@@ -77,11 +82,15 @@
     box-sizing: border-box;
     margin-top: 30px;
     min-height: 220px;
-    max-height: 220px;
+    max-height: 260px;
     min-width: 200px;
+    max-width: 350px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     margin-top: 20px;
+    border-color: orange;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
 }
 
 @keyframes flip {
@@ -95,14 +104,14 @@
 }
 
 /* Flip effect on hover */
-.cardHover:hover {
-    animation: flip 1.0s forwards;
-}
+ 
 
 .imgclass {
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
+
 
 /* Adjustments for the content */
 .boxHeading {
@@ -131,4 +140,34 @@
 
 .purplebox {
     background-color: #9265f3;
+}
+
+.cardcontainer {
+    perspective: 1000px;
+    justify-content: center;
+}
+
+.marginClass{
+    margin: auto;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front{
+    backface-visibility: hidden;
+}
+.back {
+    position: absolute;
+    backface-visibility: hidden;
+    text-align: center !important;
+    justify-content: center !important;
+    ;width: max-conten
+    
+}
+
+
+.back {
+    transform: rotateY(180deg);
 }
