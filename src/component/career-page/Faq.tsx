@@ -36,15 +36,15 @@ const Faq = () => {
                     {faqItems.map((item, index) => (
                                 <div key={index} className={classes.faqSection}>
                                     <div className={classes.ques} style={{backgroundColor:`${showAns[index]?"#ECECEC" : "#F4DED6"}`,display:"flex",flexDirection:"column"}}>
-                                    <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
+                                    <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}} onClick={() => toggleAnswer(index)}>
 
                                         <p>{item.ques}</p>
                                         <div style={{display:"flex"}}>
 
                                             {showAns[index] ? (
-                                                <FaMinus style={{cursor:"pointer"}} onClick={() => toggleAnswer(index)} />
+                                                <FaMinus style={{cursor:"pointer"}}/>
                                             ) : (
-                                                <FaPlus style={{cursor:"pointer"}} onClick={() => toggleAnswer(index)} />
+                                                <FaPlus style={{cursor:"pointer"}}/>
                                             )}
                                         </div>
                                     </div>
@@ -60,10 +60,6 @@ const Faq = () => {
                         }
                     </Flex>
                 </Flex>
-        </div>
-        <div style={{textAlign:"center"}}>
-            <h1>We look forward to receiving your application and potentially welcoming you to our team at Flipr!
-            </h1>
         </div>
     </Container>
   )
