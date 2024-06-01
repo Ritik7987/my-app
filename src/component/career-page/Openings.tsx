@@ -101,7 +101,7 @@ export default function JobOpening() {
         <Box className={classes.cardHeader}>
           <Text className={classes.title}> Junior Software Engineer</Text>
           <Text className={classes.description}>
-          Requirements: Bachelor's degree in Computer Science or related field, experience with software development, strong problem-solving skills.
+          Requirements: Bachelor&apos; degree in Computer Science or related field, experience with software development, strong problem-solving skills.
 
           </Text>
         </Box>
