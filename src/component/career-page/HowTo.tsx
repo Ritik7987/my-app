@@ -48,7 +48,7 @@ export default function HowTo() {
                             <p className={classes.boxHeading}>Check Eligibility</p>
                         </div>
                         <div className={`${classes.back}`}>
-                            Make sure you meet the requirements for the positions you're interested in.
+                            Make sure you meet the requirements for the positions you&apos;re interested in.
                         </div>
                     </Box>
                     <Box className={`${classes.card} ${classes.cardcontainer}`}>
@@ -92,7 +92,7 @@ export default function HowTo() {
                         <p className={classes.boxHeading}>Receive an Offer:</p>
                         </div>
                         <div className={classes.back}>
-                        If you meet our criteria, you'll receive an offer to join our internship or full-time program.
+                        If you meet our criteria, you&apos;ll receive an offer to join our internship or full-time program.
                         </div>
                     </Box>
 
