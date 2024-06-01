@@ -77,11 +77,13 @@
     box-sizing: border-box;
     margin-top: 30px;
     min-height: 220px;
-    max-height: 220px;
+    max-height: 260px;
     min-width: 200px;
+    max-width: 350px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     margin-top: 20px;
+    border-color: orange;
 }
 
 @keyframes flip {
@@ -135,13 +137,18 @@
 
 .numberOver {
     position: absolute;
-    top: -3rem;
-    left: -3.5rem;
+    top: -2.4rem;
+    left: -2.5rem;
     z-index: 10;
     width: 7rem;
     line-height: 1;
     font-weight: 700;
-    color: #000000;
+    color:white;
+	font-size: 40px;
+	text-shadow: -1px 1px 2px orange,
+				  1px 1px 2px orange,
+				  1px -1px 0 orange,
+				  -1px -1px 0 orange;
 
     // Styles for large screens
     @media (min-width: 768px) {
