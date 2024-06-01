@@ -35,13 +35,17 @@ export default function JobOpening() {
       gap={{ base: 'sm', sm: 'lg' }}
       justify={{ sm: 'center' }}
       className={classes.flexClass}
-    >
-            <Anchor href="#" className={classes.container}>
+    > 
+    
+    
+    
+     
+            <Anchor href="#" className={classes.container} style={{ textDecoration: 'none' }}>
       <Box className={classes.card}>
         <Box className={classes.cardHeader}>
-          <Text className={classes.title}>Senior Digital Marketer</Text>
+          <Text className={classes.title}>Software Engineering Intern</Text>
           <Text className={classes.description}>
-            Lorem ipsum dolor sit amet, consectrtur adipiscing elit. Volutpat tempor vitae.
+          Requirements: Enrolled in a Computer Science or related degree program, knowledge of programming languages like Java, Python, or C++.
           </Text>
         </Box>
         <Group className={classes.infoGroup}>
@@ -67,7 +71,7 @@ export default function JobOpening() {
                 strokeLinejoin="round"
               />
             </svg>
-            <Text className={classes.infoText}>New York, USA</Text>
+            <Text className={classes.infoText}>Location: Indore</Text>
           </Box>
           <Box className={classes.infoItem}>
           <svg
@@ -84,19 +88,21 @@ export default function JobOpening() {
                 strokeLinejoin="round"
               />
             </svg>
-            <Text className={classes.infoText}>Full-time</Text>
+            <Text className={classes.infoText}>Duration: 6 months</Text>
           </Box>
             
         </Group>
       </Box>
     </Anchor>
-
+   
+ 
     <Anchor href="#" className={classes.container} style={{ textDecoration: 'none' }}>
       <Box className={classes.card}>
         <Box className={classes.cardHeader}>
-          <Text className={classes.title}>Senior Digital Marketer</Text>
+          <Text className={classes.title}> Junior Software Engineer</Text>
           <Text className={classes.description}>
-            Lorem ipsum dolor sit amet, consectrtur adipiscing elit. Volutpat tempor vitae.
+          Requirements: Bachelor's degree in Computer Science or related field, experience with software development, strong problem-solving skills.
+
           </Text>
         </Box>
         <Group className={classes.infoGroup}>
@@ -122,7 +128,7 @@ export default function JobOpening() {
                 strokeLinejoin="round"
               />
             </svg>
-            <Text className={classes.infoText}>New York, USA</Text>
+            <Text className={classes.infoText}>Location: Indore</Text>
           </Box>
           <Box className={classes.infoItem}>
           <svg
