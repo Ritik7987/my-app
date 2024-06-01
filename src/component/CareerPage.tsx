@@ -21,6 +21,13 @@ const CareerPage = () => {
             <HowTo2/>
             <Lifeat/>
             <HowTo/>
+            <div style={{textAlign:"center"}} className={`${classes.stripLine}`}>
+              <div className={classes.textWrapper}>
+
+              <h2 className={ `${classes.gradientStyle}`}>We look forward to receiving your application and potentially welcoming you to our team at Flipr!
+              </h2>
+              </div>
+            </div>
             <Faq/>
     </>
   )
