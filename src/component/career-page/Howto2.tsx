@@ -1,16 +1,16 @@
 import { Container, Title, Card, Group, Image, Space, Badge, Box, Grid, SimpleGrid, Skeleton, rem, Flex, Button, List, MediaQuery, Anchor, Text } from '@mantine/core';
 import classes from './howto2.module.scss'
- import box5 from '../../../public/box5.png'
+import box5 from '../../../public/box5.png'
 import box4 from '../../../public/box4.png'
 import box3 from '../../../public/box3.png'
 import box2 from '../../../public/box2.png'
 import box1 from '../../../public/box1.png'
-
+ 
 
 export default function HowTo2(){
     return(
         <>
-         <Box className={`${classes.root} ${classes.container}`} mb={50}>
+         <Box className={`${classes.root} ${classes.containerHeight}`} mb={50}>
         <Grid>
                         <Grid.Col span={12} sm={9} xs={12}>
                             <Box>
