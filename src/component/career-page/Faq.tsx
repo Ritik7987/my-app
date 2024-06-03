@@ -33,32 +33,27 @@ const Faq = () => {
                         className={classes.imagefaq}
                     />
                     <Flex direction={'column'} style={{width:"100%",padding:"15px",gap:"1rem"}}>
-                    {faqItems.map((item, index) => (
-                                <div key={index} className={classes.faqSection}>
-                                    <div className={classes.ques} style={{backgroundColor:`${showAns[index]?"#ECECEC" : "#F4DED6"}`,display:"flex",flexDirection:"column"}}>
-                                    <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}} onClick={() => toggleAnswer(index)}>
+    {faqItems.map((item, index) => (
+        <div key={index} className={classes.faqSection}>
+            <div className={classes.ques} style={{backgroundColor:`${showAns[index] ? "#ECECEC" : "#F4DED6"}`, display:"flex", flexDirection:"column"}}>
+                <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}} onClick={() => toggleAnswer(index)}>
+                    <p>{item.ques}</p>
+                    <div style={{display:"flex"}}>
+                        {showAns[index] ? (
+                            <FaMinus style={{cursor:"pointer"}}/>
+                        ) : (
+                            <FaPlus style={{cursor:"pointer"}}/>
+                        )}
+                    </div>
+                </div>
+                <div className={`${classes.answer} ${showAns[index] ? classes.show : classes.hide}`}>
+                    <p>{item.ans}</p>
+                </div>
+            </div>
+        </div>
+    ))}
+</Flex>
 
-                                        <p>{item.ques}</p>
-                                        <div style={{display:"flex"}}>
-
-                                            {showAns[index] ? (
-                                                <FaMinus style={{cursor:"pointer"}}/>
-                                            ) : (
-                                                <FaPlus style={{cursor:"pointer"}}/>
-                                            )}
-                                        </div>
-                                    </div>
-                                        <div>
-                                            {showAns[index] && <p>{item.ans}</p>}
-                                        </div>
-                                    
-                                </div>
-                                    
-                                   
-                                </div>
-                            ))
-                        }
-                    </Flex>
                 </Flex>
         </div>
     </Container>

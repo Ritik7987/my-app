@@ -10,7 +10,7 @@ import box1 from '../../../public/box1.png'
 export default function HowTo() {
     return (
         <>
-            <Box className={`${classes.root} ${classes.container}`}>
+            <Box className={`${classes.root} ${classes.containerHeight}`}>
                 <Grid>
                     <Grid.Col span={12} sm={9} xs={12}>
                         <Box sx={{ marginTop: 14 }}>

@@ -7,7 +7,7 @@ export default function JobOpening() {
     return (
         <>
 
-<Box className={`${classes.root} ${classes.containerClass}`}> 
+<Box className={`${classes.root} ${classes.containerHeight}`}> 
                     <Grid>
                         <Grid.Col span={12} sm={9} xs={12}>
                             <Box sx={{ marginTop: 14 }}>
