@@ -4,10 +4,10 @@ import classes from './placements.module.scss'
 export default function Placements() {
     return (
         <>
-        <Box className={`${classes.containerClass} ${classes.root}`}>
+        <Box className={`${classes.containerHeight} ${classes.root}`}>
         <Grid>
                         <Grid.Col span={12} sm={9} xs={12}>
-                            <Box sx={{ marginTop: 14 }}>
+                            <Box>
                                 <h1 className={`${classes.heading} ${classes.gradientStyle}`}>
                                     Internships and Placements{" "}
                                     <MediaQuery

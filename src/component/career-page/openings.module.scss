@@ -18,9 +18,7 @@
         padding: 20px 5%;
     }
 }
-.containerClass {
-  margin-top: 8%;
-}
+
 
 .flexClass{
   justify-items: center;
@@ -74,7 +72,6 @@
 /* JobListing.module.css */
 .container {
   display: flex;
-  max-width: 400px;
   /* Adjust as needed */
   padding: 16px;
   box-sizing: border-box;
@@ -178,4 +175,9 @@
     width: 100%;
     font-size: 16px;
   }
+}
+
+/*Common To ALL CSS*/
+.containerHeight{
+  margin-top: 50px;
 }

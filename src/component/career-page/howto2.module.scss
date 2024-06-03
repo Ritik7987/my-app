@@ -5,7 +5,6 @@
     align-items: center;
     padding: 10px 5%;
     font-family: Montserrat, sans-serif !important;
-    margin-top: 50px;
 
     & .p {
         padding: 0;
@@ -83,6 +82,10 @@
     transform-style: preserve-3d;
     margin-top: 20px;
     border-color: orange;
+    @media (max-width: 950px) {
+        max-width: fit-content;
+    }
+    
 }
 
 @keyframes flip {
@@ -163,4 +166,9 @@
         margin: 20px;
 
     }
+}
+
+/*Common To ALL CSS*/
+.containerHeight{
+    margin-top: 50px;
 }
