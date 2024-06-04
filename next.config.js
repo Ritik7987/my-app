@@ -4,6 +4,9 @@ const nextConfig = {
   env: {
     BASE_URL: "https://api.externship.ai/",
   },
+  images: {
+    domains: ['www.strategydriven.com'],
+  },
 };
 
 module.exports = nextConfig;

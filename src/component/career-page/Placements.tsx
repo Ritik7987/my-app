@@ -41,7 +41,8 @@ export default function Placements() {
                             <p className={classes.title}>Monthly Internship & Placement Drives
                             </p>
                             <p className={classes.description}>
-                                At Flipr, we are committed to nurturing the next generation of tech talent.  
+                            Every month, we conduct internship and placement drives, offering students and recent graduates the chance to gain hands-on experience in a fast-paced, innovative environment.
+  
                             </p>
                         </Box>
                         <Box className={classes.cardHeader}>
@@ -67,8 +68,7 @@ export default function Placements() {
                         <p className={classes.title}>Monthly Internship & Placement Drives
                             </p>
                             <p className={classes.description}>
-                                We conduct monthly drives to identify and recruit the best talent from colleges.  
-                                 
+                            Our internship programs are designed to provide real-world experience, mentorship from industry experts, and the potential for full-time employment upon completion.
                             </p>
                         </Box>
                         <Box className={classes.cardHeader}>
