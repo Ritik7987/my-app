@@ -64,7 +64,7 @@ export default function Placements() {
                     >
                         <Box className={classes.cardHeader}   >
                             <p className={classes.description}>
-                            Our internship programs are designed to provide real-world experience, mentorship from industry experts, and the potential for full-time employment upon completion. 
+                                We conduct monthly drives to identify and recruit the best talent from colleges.  
                                  
                             </p>
                         </Box>

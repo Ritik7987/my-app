@@ -113,3 +113,20 @@
 .containerHeight{
   margin-top: 50px;
 }
+
+.para{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 25px 0px;
+  width: 90%;
+
+  @media screen and (max-width: 650px) {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+.image{
+  border-radius: 2%;
+}
