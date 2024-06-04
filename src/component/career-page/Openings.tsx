@@ -40,7 +40,7 @@ export default function JobOpening() {
 
 
           {Openings1.map((data, index) => (
-            <Anchor href="#" className={classes.container} style={{ textDecoration: 'none' }}>
+            <Anchor key={index} href="#" className={classes.container} style={{ textDecoration: 'none' }}>
               <Box className={classes.card}>
                 <Box className={classes.cardHeader}>
                   <Text className={classes.title}>{data.jobtitle}</Text>
@@ -110,7 +110,7 @@ export default function JobOpening() {
 
 
           {Openings2.map((data, index) => (
-            <Anchor href="#" className={classes.container} style={{ textDecoration: 'none' }}>
+            <Anchor key={index} href="#" className={classes.container} style={{ textDecoration: 'none' }}>
               <Box className={classes.card}>
                 <Box className={classes.cardHeader}>
                   <Text className={classes.title}>{data.jobtitle}</Text>

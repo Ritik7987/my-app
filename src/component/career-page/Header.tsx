@@ -74,7 +74,7 @@ function Header() {
 
                                 >
                                     At Flipr, we are on a mission to revolutionise the way people interact with technology. 
- <br />   We believe that innovation and creativity are the keys to success. By joining our team, you will be part of a dynamic environment where your ideas and skills can thrive. We're looking for passionate individuals who are eager to make a difference and contribute to our cutting-edge projects.
+ <br />   We believe that innovation and creativity are the keys to success. By joining our team, you will be part of a dynamic environment where your ideas and skills can thrive. We&apos;re looking for passionate individuals who are eager to make a difference and contribute to our cutting-edge projects.
                                 </p>
 
                             </div>
