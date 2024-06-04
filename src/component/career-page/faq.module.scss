@@ -82,7 +82,7 @@
     // height: 0;
     height: max-content;
     overflow: hidden;
-    transition: height 0.1s ease-out;
+    transition: height 400ms ease-out;
 }
 
 // .answer {
@@ -92,5 +92,5 @@
 .answer-wrapper.show {
     // height: auto;
     height: max-content;
-    transition: height 0.1s ease-out;
+    transition: height 400ms ease-out;
 }
