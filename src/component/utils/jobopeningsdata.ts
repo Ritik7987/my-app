@@ -23,7 +23,7 @@ interface howtoapply{
 export const Openings1:jobopenings[] =[
     {
         id:1,
-        jobtitle:"sales and Marketing",
+        jobtitle:"Sales and Marketing",
         jobdescription:"Develop and execute strategic marketing plans, engage with potential clients, and drive sales growth. Collaborate with various teams to enhance brand visibility and market penetration.",
         jobrequirements:"Bachelor’s degree in Marketing, Business, or related field; proven experience in sales and marketing; excellent communication and negotiation skills.",
         joblocation:"Bangalore",
@@ -62,7 +62,7 @@ export const Howtoapply = [
   {
     id:1,
     heading:"Browse Open Positions",
-    description:"Review the roles we’re currently hiring for.",
+    description:"The First Step is to Review the roles we’re currently hiring for.",
     image:box1,
  },
  {

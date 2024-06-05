@@ -1,5 +1,5 @@
 import { Container, Title, Card, Group, Image, Space, Badge, Box, Grid, SimpleGrid, Skeleton, rem, Flex, Button, List, MediaQuery, Anchor, Text } from '@mantine/core';
-import classes from './lifeat.module.scss'
+import classes from '../css/lifeat.module.scss'
 
 export default function Lifeat(){
     

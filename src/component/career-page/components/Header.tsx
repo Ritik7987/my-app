@@ -1,7 +1,7 @@
 import { Container, Image, Overlay, Text, Title, Button, Group, Modal, NavLink, Box, Center, Card, List, SimpleGrid, Grid, Badge, Flex } from '@mantine/core';
 // import classes from "./herobullets.module.scss";
-import classes from "./herobullets.module.scss";
-import headerimage from '../../../public/sss.png'
+import classes from "../css/herobullets.module.scss";
+import headerimage from '../../../../public/sss.png'
 
 function Header() {
 
