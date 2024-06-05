@@ -27,7 +27,7 @@ export const Openings1:jobopenings[] =[
         jobdescription:"Develop and execute strategic marketing plans, engage with potential clients, and drive sales growth. Collaborate with various teams to enhance brand visibility and market penetration.",
         jobrequirements:"Bachelor’s degree in Marketing, Business, or related field; proven experience in sales and marketing; excellent communication and negotiation skills.",
         joblocation:"Bangalore",
-        jobduration:"Full - Time"
+        jobduration:"Intern Cum Full-Time"
       },
       {
         id:2,
@@ -35,7 +35,7 @@ export const Openings1:jobopenings[] =[
         jobdescription:"Design and implement user-facing features for our products. Ensure a seamless and engaging user experience through clean and efficient code.",
         jobrequirements:"Bachelor’s degree in Computer Science or related field; proficiency in HTML, CSS, JavaScript, and modern frontend frameworks like React.",
         joblocation:"Indore",
-        jobduration:"Full - Time"
+        jobduration:"Intern Cum Full-Time"
       },
 ]
 
@@ -46,7 +46,7 @@ export const Openings2:jobopenings[] =[
         jobdescription:"Build and maintain server-side logic, ensuring high performance and responsiveness of applications. Develop APIs and integrate third-party services.",
         jobrequirements:"Bachelor’s degree in Computer Science or related field; strong understanding of server-side languages such as Node.js, Python, or Java; experience with database management and cloud services.",
         joblocation:"Indore",
-        jobduration:"Full - Time"
+        jobduration:"Intern Cum Full-Time"
       },
       {
         id:4,
@@ -54,7 +54,7 @@ export const Openings2:jobopenings[] =[
         jobdescription:"Work on both the frontend and backend of our applications, creating seamless end-to-end solutions. Collaborate with cross-functional teams to deliver robust and scalable products.",
         jobrequirements:"Bachelor’s degree in Computer Science or related field; proficiency in both frontend and backend technologies; experience with full stack frameworks and libraries.",
         joblocation:"Indore",
-        jobduration:"Full - Time"
+        jobduration:"Intern Cum Full-Time"
       }
 ]
 

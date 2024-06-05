@@ -23,7 +23,7 @@ function Header() {
                                                 color="gray">Flipr Careers</Badge>
                                             <br />
                                             <h1 className={`${classes.heading} ${classes.gradientStyle}`}>
-                                                Join Our Innovative Team
+                                                Join Our <br/>Innovative Team
                                             </h1>
                                         </div>
                                     </div>
