@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import CareerPage from "../component/CareerPage";
-import Header from "@/component/career-page/Header";
-import Placements from "@/component/career-page/Placements";
-import JobOpening from "@/component/career-page/Openings";
-import Lifeat from "@/component/career-page/Lifeat";
+import Header from "@/component/career-page/components/Header";
+import Placements from "@/component/career-page/components/Placements";
+import JobOpening from "@/component/career-page/components/Openings";
+import Lifeat from "@/component/career-page/components/Lifeat";
 
 
 

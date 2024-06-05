@@ -1,5 +1,5 @@
 import { Container, Title, Card, Group, Image, Space, Badge, Box, Grid, SimpleGrid, Skeleton, rem, Flex, Button, List, MediaQuery, Anchor } from '@mantine/core';
-import classes from './placements.module.scss'
+import classes from '../css/placements.module.scss'
 
 export default function Placements() {
     return (

@@ -80,9 +80,9 @@
     box-sizing: border-box;
     margin-top: 30px;
     min-height: 220px;
-    max-height: 260px;
-    min-width: 200px;
-    max-width: 350px;
+    max-height: 220px;
+    min-width: 280px;
+    max-width: 280px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     margin-top: 20px;
@@ -163,8 +163,7 @@
     position: absolute;
     backface-visibility: hidden;
     text-align: center !important;
-    justify-content: center !important;
-    ;width: max-conten
+    margin: auto !important;
     
 }
 
@@ -177,3 +176,4 @@
 .containerHeight{
     margin-top: 50px;
   }
+
