@@ -66,11 +66,13 @@
 
 @keyframes flip {
   from {
-    transform: rotateY(0deg);
+    // transform: rotateY(0deg);
+    scale: 1;
   }
 
   to {
-    transform: rotateY(180deg);
+    // transform: rotateY(180deg);
+    scale: 1.09;
   }
 }
 
@@ -93,19 +95,35 @@
 }
 
 .blackbox {
-  background-color: black;
+  // background-color: black;
+  background-image: url(https://img.freepik.com/premium-photo/headshot-young-happy-successful-male-office-worker-businessman-wearing-suit-smiling-camera-with-positive-face-expression-while-posing-against-grey-studio-background-business-people-concept_95891-6895.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .cyanbox {
-  background-color: #92f5e9;
+  // background-color: #92f5e9;
+  background-image: url("https://i.pinimg.com/originals/97/c8/42/97c842cfbcf6662d981ffcaebd90403f.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .pinkbox {
-  background-color: #e43488;
+  // background-color: #e43488;
+  background-image: url("https://img.freepik.com/premium-photo/handsome-businessman-is-working-with-laptop-office_85574-4685.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .purplebox {
-  background-color: #9265f3;
+  // background-color: #9265f3;
+  background-image: url("https://www.teacher.org/wp-content/uploads/2015/01/Dollarphotoclub_60450120-1024x683.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 

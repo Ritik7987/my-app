@@ -6,7 +6,7 @@ export default function Placements() {
         <>
         <Box className={`${classes.containerHeight} ${classes.root}`}>
         <Grid>
-                        <Grid.Col span={12} sm={9} xs={12}>
+                        <Grid.Col span={12} sm={12} xs={12}>
                             <Box>
                                 <h1 className={`${classes.heading} ${classes.gradientStyle}`}>
                                 Conduction of Internship and Placement Drives Monthly{" "}
@@ -34,7 +34,8 @@ export default function Placements() {
             >
                 <Box className={`${classes.card}`}>
                     <Flex
-                        direction={{ base: 'column', sm: 'row' }}
+                        className={classes.cardBox}
+                        direction={'row'}
                         gap={{ base: 'sm', sm: 'lg' }}
                         justify={{ sm: 'center' }}
                     >
@@ -58,7 +59,8 @@ export default function Placements() {
 
                 <Box className={classes.card}>
                     <Flex
-                        direction={{ base: 'column', sm: 'row' }}
+                        className={classes.cardBox}
+                        direction={'row'}
                         gap={{ base: 'sm', sm: 'lg' }}
                         justify={{ sm: 'center' }}
                     >
