@@ -1,5 +1,5 @@
 import { Container, Title, Card, Group, Image, Space, Badge, Box, Grid, SimpleGrid, Skeleton, rem, Flex, Button, List, MediaQuery, Anchor } from '@mantine/core';
-import classes from './placements.module.scss'
+import classes from '../css/placements.module.scss'
 
 export default function Placements() {
     return (
@@ -66,7 +66,7 @@ export default function Placements() {
                     >
                         <Box className={classes.cardHeader}   >
                             <p className={classes.description}>
-                                We conduct monthly drives to identify and recruit the best talent from colleges.  
+                            Our internship programs are designed to provide real-world experience, mentorship from industry experts, and the potential for full-time employment upon completion. 
                                  
                             </p>
                         </Box>

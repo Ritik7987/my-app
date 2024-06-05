@@ -1,26 +1,19 @@
-import Image from 'next/image'
 import React from 'react'
-import img from "../../public/navbar.jpeg"
-import image from "../../public/header.png"
-import { FaArrowRightLong } from "react-icons/fa6";
 import classes from "./careerPage.module.scss"
-import Header from './career-page/Header';
-import Placements from './career-page/Placements';
-import JobOpening from './career-page/Openings';
-import Lifeat from './career-page/Lifeat';
-import Header2 from './career-page/c2/Header';
+import Header from './career-page/components/Header';
+import Placements from './career-page/components/Placements';
+import JobOpening from './career-page/components/Openings';
+import Lifeat from './career-page/components/Lifeat';
 import Faq from './career-page/Faq';
-import HowTo from './career-page/HowTo';
-import HowTo2 from './career-page/Howto2';
+import HowTo from './career-page/components/HowTo';
 const CareerPage = () => {
   return (
     <>
      <Header/>
             <Placements/>
             <JobOpening/>
-            <HowTo2/>
-            <Lifeat/>
             <HowTo/>
+            <Lifeat/>
             <div style={{textAlign:"center"}} className={`${classes.stripLine}`}>
               <div className={classes.textWrapper}>
 

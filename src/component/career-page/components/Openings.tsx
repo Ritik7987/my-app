@@ -1,6 +1,6 @@
 import { Container, Text, Title, Card, Group, Image, Space, Badge, Box, Grid, SimpleGrid, Skeleton, rem, Flex, Button, List, MediaQuery, Anchor } from '@mantine/core';
-import classes from './openings.module.scss'
-import { Openings1, Openings2 } from '../utils/jobopeningsdata';
+import classes from '../css/openings.module.scss'
+import { Openings1, Openings2 } from '../../utils/jobopeningsdata';
 export default function JobOpening() {
 
   return (
